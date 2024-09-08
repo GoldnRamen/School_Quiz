@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz Competition</title>
+    <title>The Quiz</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../src/output.css">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-body_img bg-cover bg-repeat" style="background-image: url('./images/abstract-stylish-technological-background.png'); background-repeat: no-repeat; background-size: cover;">
     <div class="" id="regNleader">
-            <!-- Registration Section -->
         <section id="registration" class="w-fit h-fit mt-7 mx-auto px-3 py-2 border-zinc-300 border-2 space-y-4">
             <h1 class="lg:text-7xl text-4xl bg-white text-center w-fit mx-auto">Quiz Registration</h1>
             <p id="deadlineNotice" class="p-2 animate-pulse text-xl white font-bold italic shadow-black shadow-md"></p>
@@ -23,8 +22,6 @@
             </form>
             <p id="lateFeeNotice" class="hidden">Registration is late. You must pay a fine of N5,000.</p>
         </section>
-
-        <!-- Past Winners Section -->
         <section id="winners" class="hidden mx-auto p-3 h-fit w-fit bg-gradient-to-b border-4 border-black from-yellow-100 to-orange-300">
             <h2 class="text-xl lg:text-2xl font-semibold underline text-center">Leaderboard</h2>
             <p class="flex flex-row font-bold text-amber-900">Highest Ranked is: <h4 id="highestScorer" class=" mt-3 animate-bounce text-yellow-600 font-bold text-lg"></h4></p>
@@ -36,8 +33,6 @@
             <button id="winnerBtn" class="p-2 hover:bg-blue-950 text-white bg-blue-400 border mb-6 border-black rounded-lg">See past Winners</button>
         </div>
     </div>
-
-    <!-- Quiz Section -->
     <section id="quiz" class="hidden p-4 bg-yellow-50 font-comfortaa w-fit mx-auto h-fit mt-[15%]">
         <div class="flex flex-row justify-between p-2 bg-slate-800 text-white font-bold">
             <p class="" id="currentCandid"></p>
@@ -45,37 +40,12 @@
             <p class="" id="ElapsedTime"></p>
         </div>
         <h2 class="text-xl underline font-semibold mt-4 mb-4">Answer the following questions</h2>
-        <!-- <p>Time Remaining: <span id="timer">120</span> seconds</p> -->
         <div id="questionContainer" class="flex flex-col space-y-3"></div>
     </section>
-
-    <!-- Result Modal -->
-
     <div class="hidden relative z-10" id="resultModal" aria-labelledby="modal-title" role="dialog" aria-modal="true">
-        <!--
-          Background backdrop, show/hide based on modal state.
-      
-          Entering: "ease-out duration-300"
-            From: "opacity-0"
-            To: "opacity-100"
-          Leaving: "ease-in duration-200"
-            From: "opacity-100"
-            To: "opacity-0"
-        -->
         <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" aria-hidden="true"></div>
-      
         <div class="fixed inset-0 z-10 w-screen overflow-y-auto">
           <div class="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0">
-            <!--
-              Modal panel, show/hide based on modal state.
-      
-              Entering: "ease-out duration-300"
-                From: "opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
-                To: "opacity-100 translate-y-0 sm:scale-100"
-              Leaving: "ease-in duration-200"
-                From: "opacity-100 translate-y-0 sm:scale-100"
-                To: "opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
-            -->
             <div class="relative transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg">
               <div class="bg-white px-4 pb-4 pt-5 sm:p-6 sm:pb-4">
                 <div class="sm:flex sm:items-start">
