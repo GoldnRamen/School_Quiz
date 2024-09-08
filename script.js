@@ -76,7 +76,7 @@ const quizData = [
     { question: "Which ocean is the largest in the world?", options: ["Pacific", "Arctic", "Atlantic", "Indian"], answer: "Pacific" },
     { question: "Who developed the theory of Evolution?", options: ["Charles Dawkins", "Issac Newton", "Charles Darwin", "Al Capone"], answer: "Charles Darwin" },
     { question: "What is the process by which plants use sunlight and carbon dioxide?", options: ["Photogenesis", "Photosynergy", "Photosynthesis", "Photocology"], answer: "Photosynthesis" },
-    { question: "Which is the largest desert in the world?", options: ["Gobi", "Nevada", "Sahara", "Antarctica"], answer: "Sahara" },
+    { question: "Which is the largest hot desert in the world?", options: ["Gobi", "Nevada", "Sahara", "Antarctica"], answer: "Sahara" },
     { question: "How many bones are there in the adult human body?", options: ["300", "211", "306", "206"], answer: "206" }
 ];
 
