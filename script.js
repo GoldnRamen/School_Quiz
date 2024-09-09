@@ -55,10 +55,10 @@ previousWinners.forEach(winner => {
 });
 
 const quizData = [
-    { question: "What is the capital of Nigeria?", options: ["Lagos", "Abuja", "Kano", "Ibadan"], answer: "Abuja" },
+    { question: "What is the capital of Australia?", options: ["Perth", "Sydney", "Melbourne", "Canberra"], answer: "Canberra" },
     { question: "Who is the current president of Nigeria?", options: ["Goodluck Jonathan", "Bola Tinubu", "Muhammadu Buhari", "Olusegun Obasanjo"], answer: "Bola Tinubu" },
-    { question: "Which planet is referred to as 'The Red Planet'?", options: ["Earth", "Venus", "Mars", "Jupiter"], answer: "Mars" },
-    { question: "What is the method by which a caterpillar becomes a butterfly?", options: ["Osmosis", "Photosynthesis", "Meiosis", "Metamorphosis"], answer: "Metamorphosis" },
+    { question: "Which planet is referred to as 'The Lord of Rings'?", options: ["Earth", "Venus", "Neptune", "Saturn"], answer: "Saturn" },
+    { question: "What is the method by which a caterpillar becomes a butterfly?", options: ["Osmosis", "Photosynthesis", "Mieosis", "Metamorphosis"], answer: "Metamorphosis" },
     { question: "What is the largest river in Africa?", options: ["Nile", "Zambezi", "Styx", "Niger"], answer: "Nile" },
     { question: "Which ocean is the largest in the world?", options: ["Pacific", "Arctic", "Atlantic", "Indian"], answer: "Pacific" },
     { question: "Who developed the theory of Evolution?", options: ["Charles Dawkins", "Issac Newton", "Charles Darwin", "Al Capone"], answer: "Charles Darwin" },

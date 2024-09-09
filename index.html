@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../src/output.css">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-body_img bg-cover bg-repeat" style="background-image: url('./images/abstract-stylish-technological-background.png'); background-repeat: no-repeat; background-size: cover;">
+<body class="" style="background-image: url('./images/abstract-stylish-technological-background.png'); background-repeat: repeat; background-size: cover;">
     <div class="" id="regNleader">
         <section id="registration" class="w-fit h-fit mt-7 mx-auto px-3 py-2 border-zinc-300 border-2 space-y-4">
             <h1 class="lg:text-7xl text-4xl bg-white text-center w-fit mx-auto">Quiz Registration</h1>
@@ -20,10 +20,10 @@
                 <input type="text" id="candidateName" required class="bg-transparent border-b-4 border-black outline-0"><br>
                 <button type="submit" class="border border-white text-white rounded-lg bg-black p-3">Register</button>
             </form>
-            <p id="lateFeeNotice" class="hidden">Registration is late. You must pay a fine of N5,000.</p>
+            <p id="lateFeeNotice" class="hidden text-red">Registration is late. You must pay a fine of N5,000.</p>
         </section>
-        <section id="winners" class="hidden mx-auto p-3 h-fit w-fit bg-gradient-to-b border-4 border-black from-yellow-100 to-orange-300">
-            <h2 class="text-xl lg:text-2xl font-semibold underline text-center">Leaderboard</h2>
+        <section id="winners" class="hidden lg:mx-auto p-3 h-fit w-fit bg-gradient-to-b border-4 border-black from-white to-gray-300">
+            <h2 class="text-xl lg:text-2xl font-semibold underline text-center md-2">Leaderboard</h2>
             <p class="flex flex-row font-bold text-amber-900">Highest Ranked is: <h4 id="highestScorer" class=" mt-3 animate-bounce text-yellow-600 font-bold text-lg"></h4></p>
             <ul id="winnerList" class="text-lg space-y-3">
                 
